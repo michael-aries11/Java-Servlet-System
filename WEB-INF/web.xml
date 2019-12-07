@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <display-name>KayNet</display-name>
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>kanyenet.Admin</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminDashboard</servlet-name>
+    <servlet-class>kanyenet.AdminDashboard</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>AdminDashboard</servlet-name>
+    <url-pattern>/AdminDashboard</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>kanyenet.logout</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Sales</servlet-name>
+    <servlet-class>kanyenet.Sales</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>Sales</servlet-name>
+    <url-pattern>/Sales</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SalesDashBoard</servlet-name>
+    <servlet-class>kanyenet.SalesDashBoard</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>SalesDashBoard</servlet-name>
+    <url-pattern>/SalesDashBoard</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SalesLogin</servlet-name>
+    <servlet-class>kanyenet.SalesLogin</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>SalesLogin</servlet-name>
+    <url-pattern>/SalesLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SalesRegister</servlet-name>
+    <servlet-class>kanyenet.SalesRegister</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>SalesRegister</servlet-name>
+    <url-pattern>/SalesRegister</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>SessionCreator</servlet-name>
+    <servlet-class>kanyenet.SessionCreator</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>SessionCreator</servlet-name>
+    <url-pattern>/SessionCreator</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>uploadinfo</servlet-name>
+    <servlet-class>kanyenet.uploadinfo</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>uploadinfo</servlet-name>
+    <url-pattern>/uploadinfo</url-pattern>
+  </servlet-mapping>
+ 
+   
+</web-app>
